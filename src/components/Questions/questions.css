@@ -1,0 +1,15 @@
+.questions {
+    width: 100%;
+    border-radius: 20px;
+    background: #f7f7f7;
+    padding: 40px;
+}
+.questions__title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}

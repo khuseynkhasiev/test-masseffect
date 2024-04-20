@@ -1,0 +1,23 @@
+.testTitle {
+    width: 100%;
+}
+.testTitle__title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+.testTitle__text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+}
+.testTitle__text:last-child {
+    padding-bottom: 40px;
+}

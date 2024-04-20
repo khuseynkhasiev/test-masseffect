@@ -1,0 +1,48 @@
+.progressBar {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 40px;
+    padding-bottom: 28px;
+    position: relative;
+}
+.progressBar__bar {
+    border-radius: 99px;
+    background: #f7f7f7;
+    height: 12px;
+    width: 100%;
+}
+.progressBar__barFill {
+    border-radius: 99px;
+    background: #30f;
+    height: 12px;
+    position: relative;
+}
+.progresBar__fillCount {
+    position: absolute;
+    right: 0;
+    top: 22px;
+}
+.progresBar__fillCount_close {
+    opacity: 0;
+}
+.progressBar__counters {
+    position: absolute;
+    top: 17px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+}
+.progressBar__counters_active {
+    top: inherit;
+    bottom: 0;
+}
+.progressBar__count {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

@@ -1,0 +1,15 @@
+.test {
+    max-width: 886px;
+    width: 100%;
+    padding: 82px 0 88px;
+    margin: 0 auto;
+}
+.test__title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+}

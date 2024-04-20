@@ -1,0 +1,46 @@
+.answers {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.answers__label {
+    display: flex;
+    column-gap: 20px;
+    cursor: pointer;
+}
+.answer__text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.answers__input {
+    margin: 0;
+    min-width: 20px;
+    height: 20px;
+    position: relative;
+    appearance: none;
+    border: 1px solid #000;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.answers__input::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #30f;
+    border: 1px solid #30f;
+    border-radius: 999px;
+    display: none;
+}
+
+.answers__input:checked::before {
+    display: block;
+}

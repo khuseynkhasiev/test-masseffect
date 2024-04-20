@@ -1,0 +1,21 @@
+.navLink {
+    border: none;
+    background: none;
+    border-radius: 10px;
+    background: #30f;
+    width: 220px;
+    height: 54px;
+    flex-shrink: 0;
+    padding: 16px 30px 16px 31px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.navLink:hover {
+    opacity: 0.6;
+}
